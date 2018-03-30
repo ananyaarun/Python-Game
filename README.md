@@ -35,3 +35,4 @@ alien will exist on the board for another 5 seconds. Also look of alien changes
 when this missile collides with it. 
  
 Number of aliens shot down is the score of the player.
+
