@@ -36,6 +36,6 @@ class alien():
             time.sleep(8)
             config.flag = 1
             stdscr.addch(self.alieny, self.alienx, ' ')
-            stdscr.refresh()
+            stdscr.refresh() 
             time.sleep(2)
             config.flag = 0
