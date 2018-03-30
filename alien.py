@@ -2,7 +2,7 @@ import curses
 import threading
 import random
 import time
-import confing
+import config
 
 stdscr = curses.initscr()
 
@@ -34,8 +34,8 @@ class alien():
             self.alieny = yy
             self.alienx = xx
             time.sleep(8)
-            confing.flag = 1
+            config.flag = 1
             stdscr.addch(self.alieny, self.alienx, ' ')
             stdscr.refresh()
             time.sleep(2)
-            confing.flag = 0
+            config.flag = 0
