@@ -11,10 +11,12 @@ Python.
  
 Elements of the game:
  
-a. Spaceship​ : Denoted by ^. The spaceship can only be moved horizontally on Row number 1. 
+a. Spaceship​ :
+Denoted by ^. The spaceship can only be moved horizontally on Row number 1. 
 That is, it’s movement is restricted from 1x1 to 1x8. Move it using key ‘A’ to move 
 left and key ‘D’ to move it to the right. 
-b. Aliens​ : Denoted by *, The are randomly 
+b. Aliens​ : 
+Denoted by *, The are randomly 
 spawned anywhere in rows 8 and 7. A new alien is spawned every 10 
 seconds and each alien lasts for 8 seconds, after which it self destructs. 
  
