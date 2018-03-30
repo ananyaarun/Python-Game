@@ -2,7 +2,7 @@ import curses
 import threading
 import random
 import time
-import confing
+import config
 
 stdscr = curses.initscr()
 
@@ -40,7 +40,7 @@ class misi(missiles):
             stdscr.addch(self.miy, self.mix, 'i')
             stdscr.refresh()
             if self.alienx == self.mix and self.alieny == self.miy and\
-               confing.flag == 0:
+               config.flag == 0:
                 score = score + 1
                 confing.flag = 1
                 sco = "Score : " + str(score)
@@ -82,7 +82,7 @@ class misI(missiles):
             stdscr.addch(self.mIy, self.mIx, 'I')
             stdscr.refresh()
             if self.alienx == self.mIx and self.alieny == self.mIy and\
-                    confing.flag == 0:
+                    config.flag == 0:
                 stdscr.addch(self.alieny, self.alienx, '#')
                 stdscr.refresh()
                 stdscr.addch(self.mIy + 2, self.mIx, ' ')
