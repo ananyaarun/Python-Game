@@ -16,7 +16,7 @@ class alien():
         stdscr.addch(self.alieny, self.alienx, '*')
         stdscr.refresh()
         self.interval = 10
-        confing.flag = 0
+        config.flag = 0
         thread = threading.Thread(target=self.draw, args=())
         thread.daemon = True
         thread.start()
