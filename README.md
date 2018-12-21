@@ -44,7 +44,6 @@ i. First Missile​ :
   
 - If a missile and alien collide, the alien gets destroyed.  
 
-
 ii. Second Missile​ :
 
 - Character ‘l’ to denote the second form of missile. 
