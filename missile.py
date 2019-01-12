@@ -10,7 +10,6 @@ score = 0
 
 
 class missiles:
-
     def __init__(self, posy):
         self.posy = 8
 
